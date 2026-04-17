@@ -1,0 +1,113 @@
+{
+    "summary": {
+        "total_sales": 6581366.28,
+        "average_sales": 54844.72,
+        "best_month": 11,
+        "best_month_sales": 613735.5
+    },
+    "model_metrics": {
+        "mae": 2166.87,
+        "mse": 7451956.42,
+        "rmse": 2729.83,
+        "r2_score": 0.9605
+    },
+    "feature_importance": {
+        "Month": 308.3779,
+        "Marketing_Spend": 2.8833,
+        "Customers": 43.1231,
+        "Discount": -77.1963,
+        "Website_Visits": 0.9411
+    },
+    "chart_data": [
+        {
+            "month": 1,
+            "sales": 499875.23
+        },
+        {
+            "month": 2,
+            "sales": 530066.06
+        },
+        {
+            "month": 3,
+            "sales": 526676.82
+        },
+        {
+            "month": 4,
+            "sales": 474892.74
+        },
+        {
+            "month": 5,
+            "sales": 512753.33
+        },
+        {
+            "month": 6,
+            "sales": 590445.68
+        },
+        {
+            "month": 7,
+            "sales": 588950.55
+        },
+        {
+            "month": 8,
+            "sales": 572464.35
+        },
+        {
+            "month": 9,
+            "sales": 561329.74
+        },
+        {
+            "month": 10,
+            "sales": 532995.59
+        },
+        {
+            "month": 11,
+            "sales": 613735.5
+        },
+        {
+            "month": 12,
+            "sales": 577180.69
+        }
+    ],
+    "sample_predictions": [
+        {
+            "actual": 75497.17,
+            "predicted": 75328.71
+        },
+        {
+            "actual": 41306.23,
+            "predicted": 41077.05
+        },
+        {
+            "actual": 46604.5,
+            "predicted": 47422.18
+        },
+        {
+            "actual": 46785.32,
+            "predicted": 51281.67
+        },
+        {
+            "actual": 77101.53,
+            "predicted": 78521.88
+        },
+        {
+            "actual": 71117.64,
+            "predicted": 73795.2
+        },
+        {
+            "actual": 67647.68,
+            "predicted": 64894.54
+        },
+        {
+            "actual": 78243.2,
+            "predicted": 80155.97
+        },
+        {
+            "actual": 78332.98,
+            "predicted": 78312.56
+        },
+        {
+            "actual": 69888.69,
+            "predicted": 70705.21
+        }
+    ]
+}
